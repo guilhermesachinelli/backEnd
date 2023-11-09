@@ -8,5 +8,5 @@ app.get ("/", (req, res) => {
     res.status (200) .json ({message: "Hello World!"});
 } );// Cria uma rota
 app.listen(port, () => {
-    console.log(`server started on http://localhost:${port}`)
+    console.log(`server started✨ on http://localhost:${port}`)
 });
